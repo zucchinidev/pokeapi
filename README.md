@@ -35,7 +35,7 @@ class Pokedex {
 
 ## Motivación
 
-Aprendizaje acerca del desarrollo con el nuevo estardar javascript **ES2015**
+Aprendizaje acerca del desarrollo con el nuevo estándar javascript **ES2015**
  
 ## Instalación
 
