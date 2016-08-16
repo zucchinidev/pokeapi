@@ -1,0 +1,35 @@
+{
+  "name": "es2015-pokeapi",
+  "version": "0.0.1",
+  "description": "Aplicación de ejemplo para aprendizaje de ES2015 utilizando la API de pokemons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "clean": "rimraf dist",
+    "fenix": "rimraf node_modules && npm i",
+    "start": "webpack-dev-server -d"
+  },
+  "author": "azga84@gmail.com",
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.7.0",
+    "rimraf": "^2.5.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "superagent": "^2.0.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.13.0"
+  },
+  "dependencies": {
+    "pokemon-sprites": "github:pokeapi/sprites"
+  }
+}
